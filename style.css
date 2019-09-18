@@ -50,7 +50,8 @@ button{
 	color: white;
 	border: none;
 	font-weight: bold;
-	font-size: initial;
+	/* font-size: initial; */
+	font-size: 18px;
 	font-family: serif;
 	border-radius: 5px;
 	font-family: sans-serif, cursive, system-ui;
