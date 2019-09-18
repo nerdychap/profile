@@ -4,7 +4,11 @@
 body{
 	margin: 0;
 	padding: 2%;
+<<<<<<< HEAD
 	font-family: sans-serif;
+=======
+	font-family: sans-serif, cursive;
+>>>>>>> 2434df7b25a2d917aa432ca642dfbf0739957b5c
 	
 }
 a{
