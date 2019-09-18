@@ -4,7 +4,7 @@
 body{
 	margin: 0;
 	padding: 2%;
-	font-family: serif ;
+	font-family: serif;
 }
 a{
 	text-decoration: none;
@@ -51,6 +51,7 @@ button{
 	border: none;
 	font-weight: bold;
 	font-size: initial;
+	font-family: serif;
 	border-radius: 5px;
 	font-family: sans-serif, cursive, system-ui;
 }
