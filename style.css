@@ -66,6 +66,7 @@ h1,h2,h3,h4,h5{
 }
 h5{
 	color: #503cb5;
+	font-size: 16px;
 }
 @media screen and (min-width: 768px){
 	#sideBox{
