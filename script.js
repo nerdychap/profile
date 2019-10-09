@@ -1,5 +1,4 @@
-		     $(document).ready(function(){
-
+$(document).ready(function(){
   $("#aboutMe").click(function(){
     $("#about").fadeIn(1000);
     $("#edEx").hide();
@@ -14,5 +13,5 @@ $("#Skills").click(function(){
     $("#about").hide();
     $("#edEx").hide();
     $("#skills").fadeIn(1000);
+  });
 });
- });

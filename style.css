@@ -22,11 +22,8 @@ img{
 	text-align: center;
 	
 }
-#sideBox{
-	
-}
 #nav{
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	color: white;
 	position: sticky;
 	top: 0;
@@ -78,7 +75,6 @@ h5{
 	}
 	#details{
 		width: 64%;
-		float: left;
 		height: 100%;
 		display: inline-block;
 		
