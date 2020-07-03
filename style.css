@@ -30,6 +30,7 @@ img{
 	color: white;
 	position: sticky;
 	top: 0;
+	z-index: 2;
 }
 #details{
 	width: 100%;
@@ -80,7 +81,7 @@ h5{
 	#sideBox{
 		width: 36%;
 		float: right;
-		height: 100vh; 
+		height: 115vh; 
 		
 	}
 	#details{
