@@ -33,13 +33,15 @@ img{
 }
 #details{
 	width: 100%;
+	text-align: center;
 }
-#work{
+#work, #edEx, #skills{
 	text-align: center;
 }
 #work h3{
 	margin: 10px 0;
 }
+
 span{
 	margin: 2px;
 	padding: 1px;
