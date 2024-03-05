@@ -1,34 +1,45 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: sans-serif;
-	max-width: 1100px;
-	width: 96%;
-	margin: 0 auto 25px;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    width: 98%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project {
+    box-shadow: 0 0 2px lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 img {
-	border-radius: 3%;
-	max-width: 260px;
-	width: 100%;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    border-radius: 1%;
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 
-#work {
-	flex: 7
-}
-
-#sideBox {
-	flex: 3
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 #sideBox,
@@ -37,53 +48,41 @@ img {
 #edEx,
 #skills,
 #details {
-	text-align: center;
-
-}
-
-#nav {
-	background-color: rgb(255, 255, 255);
-	color: white;
-	position: sticky;
-	top: 0;
-	z-index: 2;
-}
-
-#details {
-	width: 100%;
-}
-
-#work h3 {
-	margin: 10px 0;
-}
-
-#work-sidebox-wrapper {
-	display: flex;
-	flex-wrap: wrap;
+    text-align: center;
 }
 
 span {
-	margin: 2px;
-	padding: 1px;
-	background-color: black;
-	color: white;
-	border-radius: 2px;
-	display: inline-block;
+    margin: 5px;
+    padding: 1px;
 }
 
-button {
-	display: inline-block;
-	margin: 1px;
-	width: 100%;
-	background-color: black;
-	color: white;
-	border: none;
-	font-weight: bold;
-	/* font-size: initial; */
-	font-size: 18px;
-	font-family: serif;
-	border-radius: 5px;
-	font-family: sans-serif, cursive, system-ui;
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: serif;
+    font-family: sans-serif, cursive, system-ui;
+    text-align: center;
+    padding: 5px 15px;
+    border: 1px solid white;
+}
+
+li:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 h1,
@@ -91,37 +90,37 @@ h2,
 h3,
 h4,
 h5 {
-	margin: 5px 0;
-	text-align: center;
+    margin: 5px 0;
+    text-align: center;
 }
 
 .institution {
-	font-weight: bold;
-	color: #503cb5;
+    font-weight: bold;
+    color: #503cb5;
 }
 
 h5 {
-	color: #503cb5;
-	font-size: 16px;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-style: italic;
 }
 
 @media screen and (min-width: 768px) {
-	body {
-		width: 100%;
-		margin: auto;
-	}
-
-	#sideBox {
-		width: 36%;
-		float: right;
-		height: 130vh;
-
-	}
-
-	#details {
-		width: 64%;
-		height: 100%;
-		margin: auto;
-
-	}
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1px;
+        margin-top: 0;
+    }
+    header {
+        flex-direction: row;
+    }
 }
